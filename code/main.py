@@ -1,12 +1,12 @@
-#!/usr/bin/env python3
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 """
 TOTP 2FA Authenticator
 A command-line TOTP (Time-based One-Time Password) authenticator
 compatible with Google Authenticator and other TOTP apps.
 """
 
-import sys
-import os
 from totp_authenticator.db import Database
 from totp_authenticator.totp_core import TOTPManager
 from ui import TOTPInterface
