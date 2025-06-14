@@ -1,0 +1,13 @@
+setup.py
+sva2_authenticator.egg-info/PKG-INFO
+sva2_authenticator.egg-info/SOURCES.txt
+sva2_authenticator.egg-info/dependency_links.txt
+sva2_authenticator.egg-info/entry_points.txt
+sva2_authenticator.egg-info/requires.txt
+sva2_authenticator.egg-info/top_level.txt
+sva2_cli/__init__.py
+sva2_cli/main.py
+sva2_cli/ui.py
+totp_authenticator/__init__.py
+totp_authenticator/db.py
+totp_authenticator/totp_core.py

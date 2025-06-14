@@ -9,7 +9,7 @@ compatible with Google Authenticator and other TOTP apps.
 
 from totp_authenticator.db import Database
 from totp_authenticator.totp_core import TOTPManager
-from ui import TOTPInterface
+from .ui import TOTPInterface
 
 class TOTPApp:
     def __init__(self):
@@ -127,6 +127,7 @@ class TOTPApp:
 
 def main():
     """Entry point of the application"""
+    # Start your CLI app here
     app = TOTPApp()
     app.run()
 
